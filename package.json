@@ -1,0 +1,17 @@
+{
+  "name": "webm-feed",
+  "version": "1.0.0",
+  "description": "Webm feed via websockets",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node --use_strict app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "lodash": "^4.16.4",
+    "node-fetch": "^1.6.3",
+    "socket.io": "^1.5.1"
+  }
+}
